@@ -1,0 +1,11 @@
+@media screen and (min-width: 320px) {
+  .form-region {
+    margin-top: 104px;
+  }
+  .form-select {
+    margin-bottom: 24px;
+  }
+  .form-region .loc-select {
+    margin-bottom: 216px;
+  }
+}

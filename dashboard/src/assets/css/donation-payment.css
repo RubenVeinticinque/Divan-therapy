@@ -1,0 +1,60 @@
+@media screen and (min-width: 320px) {
+  .form-donation-payment {
+    width: 282px;
+    height: 299px;
+    margin-bottom: 36px;
+  }
+  #payment-amount {
+    margin: 71px 0 64.5px 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-bottom: 3px solid;
+  }
+  .div-keyboard-donation-payment {
+    display: flex;
+  }
+  .num-keyboards {
+    width: 93.66px;
+    height: 74.5px;
+    text-align: center;
+    border: 0;
+    font-weight: 800;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    margin: 2px;
+  }
+  .back-keyboard {
+    width: 52px;
+    height: 59px;
+  }
+  .btn-template-keyboard {
+    background-image: url("../img/icons/back-keyboard.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 52px 59px;
+  }
+  .btn-ftf-session-mode,
+  .btn-online-session-mode {
+    width: 116px;
+    height: 37px;
+    border-radius: 25px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .p-pay-session {
+    width: max-content;
+  }
+  .div-session-mode {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .div-session-mode {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .div-session-mode {
+    width: 24%;
+  }
+}

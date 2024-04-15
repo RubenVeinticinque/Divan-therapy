@@ -1,0 +1,44 @@
+@media screen and (min-width: 320px) {
+  #section-all-therapists {
+    margin-bottom: 50px;
+    border: 1.5px solid;
+    border-bottom: none;
+  }
+  .all-therapists-article {
+    border-bottom: 1px solid;
+    padding: 8px;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .all-therapists-article p {
+    margin: 0;
+  }
+  .all-therapists-title {
+    text-align: start;
+    font-size: 0.8rem;
+    margin: 0.5rem;
+  }
+  .img-all-therapists {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  #section-all-therapists {
+    width: 90% !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  #section-all-therapists {
+    width: 85% !important;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #section-all-therapists {
+    width: 50% !important;
+  }
+}

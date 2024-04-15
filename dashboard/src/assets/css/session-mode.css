@@ -1,0 +1,224 @@
+@media screen and (min-width: 320px) {
+  .label-session-mode,
+  .turn-title {
+    cursor: default;
+  }
+  .modality {
+    padding: 170px 0 14px;
+  }
+  #btn-card {
+    cursor: default !important;
+  }
+  #btn-card:hover {
+    box-shadow: none;
+  }
+  /* Select datetime */
+
+  .container-fluid {
+    padding-bottom: 60px !important;
+  }
+  .card-header {
+    border: none !important;
+    background-color: transparent !important;
+  }
+  #card {
+    background-color: transparent !important;
+  }
+  .react-datepicker-time__input .react-datepicker-time__input {
+    border: 1px solid #fff !important;
+  }
+  .react-datepicker__month-container,
+  .react-datepicker__time-container,
+  .react-datepicker__time-box,
+  .react-datepicker__time-list {
+    width: 100% !important;
+  }
+  .react-datepicker__navigation--next--with-time {
+    right: 0px !important;
+  }
+
+  .input-date-time {
+    margin: 10px 20px !important;
+    background-color: #1c5e5c !important;
+  }
+  .react-datepicker,
+  .react-datepicker-time__input,
+  .react-datepicker__time {
+    background-color: #1c5e5c !important;
+  }
+  .react-datepicker,
+  .react-datepicker__day {
+    color: #fff;
+  }
+  li.react-datepicker__time-list-item:hover {
+    background-color: transparent !important;
+    color: #fe5b00;
+  }
+
+  .input-date-time {
+    padding: 10px 20px !important;
+    border: 1px solid #000 !important;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #616161;
+    color: #fff !important;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 200px;
+  }
+  ::placeholder {
+    color: #fff;
+    opacity: 1;
+  }
+  :-ms-input-placeholder {
+    color: #fff;
+  }
+  ::-ms-input-placeholder {
+    color: #fff;
+  }
+  .datepicker {
+    background-color: #1c5e5c !important;
+    color: #fff !important;
+    border: none;
+    padding: 10px !important;
+    padding-top: 18px;
+    text-align: center;
+  }
+  .datepicker-dropdown {
+    width: 100%;
+    left: 0 !important;
+  }
+  .table-condensed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .datepicker-dropdown:after {
+    border-bottom: 6px solid #000;
+  }
+  .card-body {
+    width: 100%;
+  }
+  .card-body .row {
+    justify-content: center;
+  }
+  .row .px-2 {
+    padding: 0 !important;
+  }
+  .display-block {
+    display: block;
+  }
+  .display-none {
+    display: none;
+  }
+  thead tr:nth-child(3) th {
+    color: #fff !important;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .dow,
+  .old-day,
+  .day,
+  .new-day {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 0px !important;
+  }
+  .old-day:hover,
+  .day:hover,
+  .new-day:hover,
+  .month:hover,
+  .year:hover,
+  .decade:hover,
+  .century:hover {
+    border-radius: 6px !important;
+    background-color: #eee;
+    color: #000;
+  }
+  .disabled {
+    color: #616161 !important;
+  }
+  .prev,
+  .next,
+  .datepicker-switch {
+    border-radius: 0 !important;
+    padding: 20px 10px !important;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff !important;
+    opacity: 0.8;
+  }
+  .prev:hover,
+  .next:hover,
+  .datepicker-switch:hover {
+    background-color: inherit !important;
+    opacity: 1;
+  }
+  .cell {
+    color: #1c5e5c;
+    border: 1px solid #1c5e5c;
+    margin: 2px;
+    cursor: pointer;
+  }
+  .cell:hover {
+    background-color: #1c5e5c;
+    color: #ffffff;
+  }
+  .cell.select {
+    background-color: #00aada;
+    color: #fff;
+  }
+  .fa-calendar {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 8px;
+    padding-left: 5px;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 480px) {
+  #main {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* Datepicker datetime */
+
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+  }
+  .container-fluid .row {
+    width: 100%;
+  }
+  .card-header {
+    display: flex;
+    justify-content: center;
+  }
+  #dp1 {
+    width: 50%;
+    background-color: #1c5e5c !important;
+  }
+  .datepicker {
+    background-color: transparent !important;
+    border: none !important;
+  }
+  .datepicker-days {
+    display: flex;
+    justify-content: center;
+  }
+  .table-condensed {
+    width: max-content;
+    background-color: #1c5e5c;
+    padding: 0 120px;
+  }
+  .card-body {
+    width: 100%;
+  }
+  .div-session-mode {
+    width: 50%;
+  }
+}

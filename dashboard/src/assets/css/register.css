@@ -1,0 +1,10 @@
+@media screen and (min-width: 320px) {
+  #p-help {
+    line-height: 19px;
+    margin-bottom: 37px;
+    text-align: center;
+  }
+  .nav {
+    margin-top: 6rem;
+  }
+}

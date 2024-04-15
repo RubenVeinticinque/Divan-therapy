@@ -1,0 +1,237 @@
+@media screen and (min-width: 320px) {
+  .main-description {
+    margin-top: 18.4%;
+  }
+  .main-description h2 {
+    height: 55.08px;
+  }
+  h2,
+  h3 {
+    color: #008c87cc;
+  }
+  .main-guia {
+    width: 100%;
+    text-align: left;
+  }
+  .label-date {
+    margin: 10px 0 40px;
+  }
+  .label-date {
+    font-weight: 700;
+  }
+  #label-sessions {
+    padding-top: 24px;
+  }
+  .main-description p {
+    padding-bottom: 100px;
+  }
+  .main-description p,
+  .p-team-therapists {
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  #p-enter-therapists {
+    border: 1px solid #00d9d1;
+  }
+  #p-enter-therapists,
+  #p-emergency {
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .img-register {
+    width: 100%;
+  }
+  .section-option-therapists {
+    border-radius: 12px;
+  }
+  .therapy-option {
+    padding: 16px;
+  }
+  .therapy-option p {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  #p-choice-of-terapy {
+    font-size: 0.98rem;
+    font-weight: 700;
+  }
+  .mod-f-and-o {
+    display: flex;
+    justify-content: space-around;
+  }
+  .main-guia-price {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .btn-online,
+  .btn-face-to-face {
+    width: 117px;
+    height: 36px;
+    border-radius: 15px;
+    outline: none;
+    line-height: 3;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-online:hover {
+    color: #ffffff;
+    background-color: #fe5b00cc;
+    text-decoration: none;
+  }
+  .btn-face-to-face:hover {
+    color: #ffffff;
+    background-color: #008c87cc;
+    text-decoration: none;
+  }
+  .main-modality {
+    font-size: 0.75rem;
+    margin-bottom: 40px;
+  }
+  .modality-ftf {
+    width: 49.35%;
+    padding-right: 2px;
+  }
+  .modality-o {
+    width: 49.35%;
+    padding-left: 2px;
+  }
+  .main-therapists,
+  .session-therapists,
+  .feedback,
+  .container-donation {
+    margin-top: 50%;
+  }
+  .feedback {
+    position: relative;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .container-feedback {
+    width: 280px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px 0 0 0;
+    border: 2px solid #fe5b00;
+    background-color: #ffffff;
+  }
+  .feedback-card {
+    display: flex;
+    flex-direction: column;
+    cursor: auto;
+  }
+  .feedback h3 {
+    margin-bottom: 48px;
+  }
+  #label-name {
+    font-size: 1.25rem;
+  }
+  .label-paragraph {
+    margin: 0 20px;
+    font-size: 0.875rem;
+  }
+}
+@media screen and (min-width: 480px) {
+  /* Title */
+
+  #p-choice-of-terapy {
+    font-size: 1.25rem;
+  }
+  /* Therapist card */
+
+  #label-sessions {
+    padding: 0;
+  }
+  /* User comments */
+
+  .feedback {
+    background-image: url(../img/feedback.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 570px;
+  }
+  .container-feedback {
+    width: 380px;
+    height: 320px;
+  }
+  .feedback h3 {
+    position: absolute;
+    top: 24px;
+    font-weight: 800;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 768px) {
+  #label-name {
+    font-size: 1.5rem;
+  }
+  .main-therapists,
+  .session-therapists,
+  .feedback,
+  .container-donation {
+    margin-top: 30%;
+  }
+  .feedback h3 {
+    top: 48px;
+    font-size: 1.5rem !important;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+  .container-main-title-img {
+    margin-bottom: 100px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 24px;
+  }
+  .main-guia-title-and-subtitle {
+    width: 50%;
+    padding: 24px;
+  }
+  .therapy-option p {
+    margin-top: 1rem;
+  }
+  #p-choice-of-terapy {
+    font-size: 1.5rem;
+  }
+  .section-option-therapists {
+    margin-bottom: 100px;
+  }
+  .main-guia-h2 {
+    font-size: 1.5rem !important;
+  }
+  #session-price p {
+    font-size: 1.5rem !important;
+  }
+  .main-modality {
+    font-size: 1rem;
+  }
+  .main-therapists,
+  .session-therapists,
+  .feedback,
+  .container-donation {
+    margin-top: 20%;
+  }
+  .feedback h3 {
+    font-size: 2rem !important;
+  }
+  .donation .img-home {
+    width: 100%;
+  }
+}

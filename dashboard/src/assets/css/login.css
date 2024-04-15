@@ -1,0 +1,28 @@
+@media screen and (min-width: 320px) {
+  .pic-img-login {
+    width: 100%;
+  }
+  #img-login {
+    width: 100%;
+    margin: 108px 0 34.46px 0;
+  }
+  .a-div-sign {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 480px) {
+  .pic-img-login {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .pic-img-login {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .pic-img-login {
+    width: 35%;
+  }
+}

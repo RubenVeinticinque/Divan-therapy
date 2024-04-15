@@ -1,0 +1,19 @@
+@media screen and (min-width: 320px) {
+  #p-request-return {
+    padding: 24px;
+  }
+  #btn-turns,
+  #btn-vc,
+  #btn-chat {
+    margin-bottom: 12px;
+  }
+  .div-session-mode {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .div-session-mode {
+    flex-wrap: nowrap;
+  }
+}

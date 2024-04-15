@@ -1,0 +1,59 @@
+const db = require("../../database/models");
+const { validationResult } = require("express-validator");
+
+module.exports = {
+  priceEdit: async (req, res) => {
+    const body = req.body;
+    const validationsErrors = validationResult(req);
+
+    try {
+      if (!validationsErrors.isEmpty()) {
+        const response = {
+          meta: {
+            status: 200,
+            total: validationsErrors.errors.length,
+            url: req.originalUrl,
+          },
+          data: validationsErrors.mapped(),
+        };
+
+        return res.json(response);
+      } else {
+        const newPrice = {
+          price: body.price,
+        };
+
+        const priceUpdate = await db.Prices.update(
+          { ...newPrice },
+          { where: { id: 1 } }
+        ).catch((error) => {
+          console.log(error);
+        });
+
+        const response = {
+          meta: {
+            status: 200,
+            total: 1,
+            url: req.originalUrl,
+          },
+          data: "Price update",
+        };
+
+        return res.json(response);
+      }
+    } catch (error) {
+      console.log(error);
+
+      const response = {
+        meta: {
+          status: 200,
+          total: 1,
+          url: req.originalUrl,
+        },
+        data: "Error in operation",
+      };
+
+      return res.json(response);
+    }
+  },
+};

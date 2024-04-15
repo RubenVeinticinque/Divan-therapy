@@ -1,0 +1,230 @@
+@media screen and (min-width: 320px) {
+  .main {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .btn_username {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    border: none;
+    background-color: transparent;
+  }
+  .btn_username:hover {
+    background-color: #a8a8a8;
+    border-radius: 12px;
+    color: #ffffff;
+  }
+  #chat-users li {
+    list-style: none;
+    padding-left: 8px;
+    font-size: 0.75rem;
+  }
+  .img_users {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .container-username {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #chat-therapist-name {
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .chat-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .chat-container-img-name {
+    display: flex;
+    align-items: center;
+  }
+  #img-profile {
+    width: 50px;
+    height: 50px;
+    top: 52px;
+    border-radius: 50%;
+  }
+  .label-therapist-name {
+    position: static !important;
+    margin-left: 12px !important;
+  }
+  .label-therapist-name:hover {
+    cursor: pointer;
+  }
+  .chat-icon-video-black {
+    width: 59px;
+  }
+
+  #div-line {
+    height: 1px;
+    margin-top: 12px;
+    margin-bottom: 25px;
+  }
+
+  #chat-form {
+    width: 100%;
+    height: 46px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .chat-icon-msg {
+    width: 27.6px;
+    height: 27.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #chat-input-msg {
+    height: 12px;
+    font-size: 0.625rem;
+    border: none;
+    outline: none;
+  }
+  .chat-icon-msg,
+  #chat-icon-msg {
+    border: none;
+  }
+  .chat-icon-camera-retro > input {
+    display: none;
+  }
+  .chat-icon-camera-retro label {
+    display: flex;
+    margin: 0;
+  }
+  #div-msg1,
+  #div-msg2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+  }
+  #div-msg1 {
+    top: 0;
+    left: -5px;
+    clip-path: polygon(100% 0%, 50% 0%, 0% 0%, 100% 75%);
+    background-color: #18f0e8;
+  }
+  #div-msg2 {
+    top: 0px;
+    right: -5px;
+    clip-path: polygon(100% 0%, 0% 0%, 0% 0%, 0% 75%);
+    background-color: #ffffff;
+  }
+  .container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .container-msg {
+    position: relative;
+  }
+  .div-chat-container-user,
+  .div-chat-container-therapist {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .p_user,
+  .p_user_selected {
+    text-align: start;
+    margin: 0;
+  }
+  .p_user,
+  .p_user_selected {
+    font-size: 0.75rem;
+  }
+  .p_user {
+    color: #008c87cc;
+  }
+  .p_user_selected {
+    color: #fe5b00;
+    text-align: end;
+  }
+  .img_upload {
+    width: 250px;
+    margin-bottom: 40px;
+  }
+  .container-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chat-send-user,
+  .chat-send-guest {
+    padding: 15px 30px 15px 30px;
+    font-size: 0.625rem;
+    border-radius: 0 10px 10px 10px;
+    font-size: 0.875rem;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  .chat-send-user {
+    margin: 0 25px 40px 10px;
+    background-color: #18f0e8;
+  }
+  .chat-send-guest {
+    margin: 0 10px 40px 25px;
+    background-color: #ffffff;
+  }
+  .container-audio-chat {
+    display: flex;
+    justify-content: center;
+  }
+  .audio-chat {
+    width: 280px;
+    border-radius: 24px;
+  }
+}
+@media screen and (min-width: 480px) {
+  #main {
+    justify-content: center;
+  }
+  .container-chat {
+    width: 90% !important;
+  }
+  .img-users {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  #chat-users li {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main {
+    margin-top: 50px;
+  }
+  .container-chat {
+    width: 60% !important;
+  }
+  #chat-therapist-name {
+    margin-top: 60px;
+  }
+  .img-profile {
+    width: 70px;
+    height: 70px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .main {
+    margin-top: 0px;
+  }
+  .container-chat {
+    width: 40.5% !important;
+  }
+  .div-session-mode {
+    width: 100% !important;
+  }
+}

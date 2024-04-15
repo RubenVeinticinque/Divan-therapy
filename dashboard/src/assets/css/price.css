@@ -1,0 +1,79 @@
+@media screen and (min-width: 320px) {
+  #title {
+    margin-bottom: 50px;
+  }
+  .section-option-therapists {
+    border-radius: 12px;
+    width: 100%;
+  }
+  #p-choice-of-terapy {
+    font-weight: 700;
+  }
+  .therapy-option {
+    padding: 16px;
+  }
+  .btn-online,
+  .btn-face-to-face {
+    width: 117px;
+    height: 36px;
+    border-radius: 15px;
+    outline: none;
+    line-height: 3;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-online:hover {
+    color: #ffffff;
+    background-color: #fe5b00cc;
+    text-decoration: none;
+  }
+  .btn-face-to-face:hover {
+    color: #ffffff;
+    background-color: #008c87cc;
+    text-decoration: none;
+  }
+  .main-guia-price {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .mod-f-and-o {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-modality {
+    font-size: 0.75rem;
+    margin-bottom: 40px;
+  }
+  .modality-ftf {
+    width: 49.35%;
+    padding-right: 2px;
+  }
+  .modality-o {
+    width: 49.35%;
+    padding-left: 2px;
+  }
+}
+@media screen and (min-width: 480px) {
+  /* Title */
+
+  #p-choice-of-terapy {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .therapy-option p {
+    margin-top: 1rem;
+  }
+  #p-choice-of-terapy {
+    font-size: 1.5rem;
+  }
+  .section-option-therapists {
+    margin-bottom: 100px;
+  }
+  .main-modality {
+    font-size: 1rem;
+  }
+}

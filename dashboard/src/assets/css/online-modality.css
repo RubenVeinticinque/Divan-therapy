@@ -1,0 +1,13 @@
+@media screen and (min-width: 320px) {
+  .btn-card:hover {
+    cursor: default !important;
+    box-shadow: none !important;
+  }
+  .turn-title {
+    margin-top: 4.1875rem;
+  }
+  .p-online-modality,
+  #p-online-modality {
+    padding: 24px 0;
+  }
+}

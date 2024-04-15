@@ -1,0 +1,871 @@
+@media screen and (min-width: 320px) {
+  * {
+    font-family: "Roboto";
+  }
+  /* Paragraph */
+
+  p {
+    color: #1c5e5c;
+  }
+  /* Backgrounds */
+
+  .bg-color-white {
+    background-color: #ffffff;
+  }
+  .bg-color-light-rose {
+    background-color: #e2d8d8;
+  }
+  .bg-color-light-gray {
+    background-color: #cfcccc;
+  }
+  .bg-color-greenish {
+    background-color: #519e0e;
+  }
+  .bg-color-light-green {
+    background-color: #008c87;
+  }
+  .bg-color-green {
+    background-color: #008c871a;
+  }
+  .bg-color-orange {
+    background-color: #fe5b00;
+  }
+  .bg-color-board {
+    background-color: #961515;
+  }
+  .bg-color-light-blue {
+    background-color: #18f0e8;
+  }
+  .bg-color-light-blue2 {
+    background-color: #00d9d1;
+  }
+  .bg-color-yellow {
+    background-color: #f0c021;
+  }
+  .bg-color-purple {
+    background-color: #bc62f0;
+  }
+  .bg-color-blue {
+    background-color: #0275c7;
+  }
+  /* Colors */
+
+  .color-white {
+    color: #ffffff;
+  }
+  .color-soft-gray {
+    color: #a8a8a8;
+  }
+  .color-dark-gray {
+    color: #8c8484;
+  }
+  .color-light-green {
+    color: #008c87;
+  }
+  .color-soft-green {
+    color: #008c87cc;
+  }
+  .color-orange {
+    color: #fe5b00;
+  }
+  .color-dark-green {
+    color: #1c5e5c;
+  }
+  .color-light-blue2 {
+    color: #00d9d1;
+  }
+  /* Margins */
+
+  .margin-botton-3 {
+    margin-bottom: 3rem;
+  }
+  /* Displays */
+
+  .display-none {
+    display: none !important;
+  }
+  .display-block {
+    display: block !important;
+  }
+  /* Arrows */
+
+  a {
+    list-style: none;
+  }
+  .a-footer:hover {
+    color: #fe5b00;
+    text-decoration: none;
+  }
+  #icon-arrow {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  #icon-arrow img {
+    width: 24px;
+    height: 16px;
+    margin-top: 22px;
+  }
+  a:hover {
+    text-decoration: none !important;
+  }
+  /* Body */
+
+  .body {
+    padding: 0;
+  }
+  /* Header */
+
+  .header {
+    width: 100%;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+  }
+  .burger-xmark {
+    width: 24px;
+    display: none;
+  }
+  #logo {
+    display: none;
+  }
+  /* Nav */
+
+  .header-nav {
+    position: absolute;
+    top: 100px;
+    left: -576px;
+    width: 75%;
+    padding: 24px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+  }
+  .header-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  .header-nav ul li {
+    padding: 8px;
+  }
+  .header-nav a {
+    color: #008c87cc;
+  }
+  .header-nav a:hover {
+    text-decoration: none;
+    color: #fe5b00cc;
+  }
+  /* Header Button */
+
+  #container-login {
+    position: relative;
+  }
+  .ul-login {
+    width: 100%;
+    list-style: none;
+    padding: 8px;
+    text-align: center;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  .ul-login li {
+    padding: 4px;
+  }
+  .a-login:hover {
+    color: #fe5b00;
+  }
+  .btn-login {
+    width: 100px;
+    height: 32px;
+    border-radius: 15px;
+    border: 1px solid #008c87cc;
+    color: #008c87cc;
+    outline: none;
+    line-height: 3;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+  }
+  .btn-login:hover {
+    border: 1px solid #fe5b00;
+    border-top: 2px solid #fe5b00;
+    border-bottom: 2px solid #fe5b00;
+    background-color: #fe5b00cc;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .btn-card {
+    width: 520px;
+  }
+  /* Title h1 */
+
+  .title {
+    height: 28px;
+    margin-top: 100px;
+    color: #1c5e5c;
+  }
+  /* Main */
+
+  .main {
+    width: 100%;
+    padding: 0 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  /* Register, login and región */
+
+  .form-register,
+  .form-login,
+  .form-region {
+    width: 100%;
+  }
+  /* Inputs register and login */
+
+  .inputs {
+    margin-bottom: 18px;
+  }
+  .btn-register {
+    margin-top: 54px;
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 25px;
+    background-color: #008c87;
+    color: #ffffff;
+  }
+  .btn-register:hover {
+    background-color: #008c87f2;
+  }
+  .p-sign {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .a-sign:hover {
+    color: #18f0e8;
+  }
+  /* Profile edit and admin */
+
+  #a-edit-profile {
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    background-color: #fe5b00;
+  }
+  #a-edit-profile:hover,
+  #a-delete-user:hover,
+  .btn-admin:hover,
+  .btn-back:hover {
+    color: #ffffff;
+  }
+  .btn-admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.125rem;
+    margin-top: 10px;
+  }
+  /* Button back, admin */
+
+  .btn-back {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #btn-back {
+    height: 38px;
+    margin-left: 5px;
+  }
+  #btn-back:hover {
+    background-color: #008c87cc;
+  }
+  .btn-back:hover,
+  #a-edit-profile:hover {
+    background-color: #fe5b00cc;
+  }
+  /* Buttons all admin */
+
+  .container-btn-admin {
+    display: flex;
+    justify-content: space-around;
+  }
+  .btn-page {
+    margin-bottom: 48px;
+    align-items: baseline;
+  }
+  #container-btn-delete {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  /* Search therapists edit */
+
+  .container-search {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* Price */
+
+  #session-price {
+    font-weight: 800;
+  }
+  /* Delete confirm */
+
+  #a-delete-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Therapist card */
+
+  .form-therapists {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .therapist-card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-card {
+    position: relative;
+    margin-bottom: 18px;
+    width: 280px;
+    height: 370px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .btn-card:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100) !important;
+    cursor: pointer !important;
+  }
+
+  .img-profile {
+    position: static;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+  }
+  #label-name {
+    font-size: 1.125rem;
+  }
+  #label-therapist {
+    margin-bottom: 1.5rem;
+  }
+  #label-speciality {
+    font-size: 1.125rem;
+    font-weight: 700;
+  }
+  .label-therapist-name {
+    position: absolute;
+    left: 70px;
+    top: 28px;
+    font-size: 1.125rem;
+  }
+  .label-thera-session {
+    position: absolute;
+    width: 78px;
+    height: 14px;
+    right: 24px;
+    top: 55px;
+  }
+  .label-sub-title {
+    position: absolute;
+    left: 70px;
+    top: 55px;
+  }
+  .btn-card .label-sub-title,
+  .label-thera-session {
+    font-size: 0.75rem;
+  }
+  .label-sub-title {
+    width: max-content;
+    height: max-content;
+  }
+  .turn-title {
+    color: #fe5b00;
+  }
+  /* Button session mode */
+
+  .div-session-mode {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px 50px;
+  }
+  .btn-ftf-session-mode,
+  .btn-online-session-mode {
+    width: 132.5px;
+    height: 48px;
+    border-radius: 15px;
+    border: none;
+  }
+  .btn-ftf-session-mode:hover {
+    background-color: #fe5b00cc;
+  }
+  /* Hover buttons */
+
+  .btn-online-session-mode:hover,
+  .btn-payment:hover {
+    background-color: #008c87cc;
+  }
+  /* Subtitle card */
+
+  .div-sub-title {
+    width: 100%;
+    padding-top: 19px;
+  }
+  .sub-title {
+    font-size: 1rem;
+    color: #00d9d1;
+    text-align: initial;
+  }
+  /* Confirm appointment */
+
+  .p-modality {
+    margin-top: 1.375rem;
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: start;
+  }
+  .p-payment-made {
+    margin: 60px 0 0;
+  }
+  /* Paragraph online modality */
+
+  .establishment-address-price {
+    text-align: center;
+  }
+  /* Addrees price and price session the online modality and face to face modality */
+
+  .address-price {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+  }
+  .price-session {
+    margin: 2.5rem 0 2.5rem 0;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent !important;
+  }
+  .address-price p {
+    margin-bottom: 0;
+    font-size: 0.75rem;
+  }
+  .price-session p {
+    font-weight: 700;
+  }
+  .p-thanks {
+    padding: 15px;
+  }
+  /* Session-payment */
+
+  .p-pay-session {
+    margin-top: 1.75rem;
+  }
+  .img-pay {
+    width: 280px;
+    margin: 15px 0 74.75px 0;
+  }
+  /* Checkout bricks */
+
+  #payment-main {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  /* Payment made */
+
+  .icon-check {
+    width: 280px;
+  }
+  .payment-made {
+    margin: 239px 45px;
+  }
+  .payment-made p {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  /* Navigation bar */
+
+  .nav {
+    position: sticky;
+    bottom: 12px;
+    margin-top: 3rem;
+  }
+  .nav-icons {
+    width: 100%;
+    height: 53px;
+    background: rgba(0, 217, 209, 0.8);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-icon-home,
+  .nav-icon-comment,
+  .nav-icon-video,
+  .nav-icon-donate {
+    width: 57px;
+    height: 43px;
+  }
+  /* Footer */
+
+  .footer {
+    width: 100%;
+    background-color: #008c87;
+    padding: 24px 0 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .footer a {
+    color: #ffffff;
+  }
+  #img-logo-footer {
+    width: 150px;
+    margin-bottom: 24px;
+  }
+  #footer-container-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo-and-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  #p-footer {
+    font-size: 0.7rem;
+    padding: 0 32px;
+  }
+}
+@media screen and (min-width: 480px) {
+  /* Register and login */
+
+  .form-register,
+  .form-login,
+  .form-region {
+    width: 70%;
+  }
+  /* Therapists cards */
+
+  .btn-card {
+    width: 440px;
+    height: 200px;
+    flex-direction: row;
+  }
+  .img-profile {
+    width: 150px;
+    height: 150px;
+  }
+  .therapist-card-text {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0.6;
+  }
+  #label-name {
+    font-size: 1.25rem;
+    padding-top: 24px;
+  }
+  #label-sessions {
+    align-self: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+  /* Online modality */
+
+  .p-thanks {
+    padding: 15px 0;
+  }
+  .address-price p {
+    font-size: 1rem;
+  }
+  .establishment-address-price {
+    width: 90%;
+  }
+  /* Session payment */
+
+  .img-pay {
+    width: 100%;
+  }
+  /* Checkout bricks */
+
+  #payment-main {
+    width: 90%;
+  }
+  /* Button back, admin */
+
+  .btn-back {
+    width: 140px !important;
+  }
+  /* Buttons all admin */
+
+  .container-btn-admin {
+    width: 90% !important;
+  }
+  #container-btn-delete {
+    width: 70%;
+  }
+  /* Profile edit and Delete confirm user */
+
+  #a-delete-user {
+    width: 70%;
+  }
+
+  /* Footer */
+
+  #img-logo-footer {
+    margin-bottom: 0;
+  }
+  .logo-and-ul {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #footer-font {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /*  Header  */
+
+  .header {
+    width: 100%;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+  }
+  .burger-xmark {
+    display: none;
+  }
+  #logo {
+    display: flex;
+    position: absolute;
+    top: 3.05%;
+    left: calc(50% - 100px);
+    z-index: 1;
+  }
+  #img-logo-header {
+    width: 200px;
+  }
+  .header-nav {
+    left: -900px;
+  }
+  /* Profile edit and Delete confirm user */
+
+  #a-delete-user {
+    width: 50%;
+  }
+  /* Delete confirm user */
+
+  #main-delete-confirm {
+    margin-top: 9.2%;
+  }
+  /* Arrow */
+
+  #icon-arrow {
+    display: none;
+  }
+  /* Buttons */
+
+  .btn-login {
+    width: 117px;
+    height: 36px;
+  }
+  .btn-login:hover {
+    border: 1px solid #fe5b00;
+    border-top: 2px solid #fe5b00;
+    border-bottom: 2px solid #fe5b00;
+    background-color: #fe5b00cc;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .btn-card {
+    width: 520px;
+  }
+  /* Register and login */
+
+  .form-register,
+  .form-login,
+  .form-region {
+    width: 50%;
+  }
+  /* Session mode */
+
+  .sub-title {
+    max-width: max-content;
+  }
+  /* Online modality */
+
+  .div-sub-title {
+    width: 520px;
+  }
+  .establishment-address-price,
+  .p-modality {
+    width: 520px !important;
+  }
+  /* Session payment */
+
+  .img-pay {
+    height: 432px;
+  }
+  /* Checkout bricks */
+
+  #payment-main {
+    width: 60%;
+  }
+  /* Buttons all admin */
+
+  .container-btn-admin {
+    width: 85% !important;
+  }
+  #container-btn-delete {
+    width: 50%;
+  }
+  /* Footer */
+  #footer-container-menu {
+    display: flex;
+    flex-direction: row;
+    margin: 24px 0;
+  }
+
+  .logo-and-ul {
+    margin: 0;
+    flex-grow: 0.7;
+    justify-content: space-around;
+  }
+  .logo-and-ul ul {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin-right: 20px;
+  }
+  .footer a {
+    flex-grow: 0.3;
+  }
+  .container-menu-a {
+    flex-grow: 0.5;
+  }
+}
+@media screen and (min-width: 1280px) {
+  /*  header  */
+
+  .header {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .header-nav {
+    position: static;
+    width: auto;
+    padding: 0;
+    background-color: transparent;
+  }
+  #burger-xmark {
+    display: none;
+  }
+  #logo {
+    position: inherit;
+  }
+  #img-logo-header {
+    width: 150px;
+  }
+  .header-nav {
+    display: flex;
+  }
+  .header-nav ul li {
+    margin: 0 0.5rem;
+  }
+  .header-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    margin: 0;
+    list-style: none;
+  }
+  .header-nav a {
+    color: #008c87cc;
+  }
+  .header-nav a:hover {
+    text-decoration: none;
+    color: #fe5b00cc;
+  }
+  /* face to face modality */
+
+  .div-session-mode {
+    width: 30%;
+  }
+  /* Register and login*/
+
+  #form-therapists {
+    width: 100%;
+  }
+  .btn-register {
+    width: 280px;
+  }
+  .form-login,
+  .form-region {
+    width: 35%;
+  }
+  /* Session payment */
+
+  #payment-main {
+    width: 30%;
+  }
+  /* Profile edit and Delete confirm user */
+
+  #a-delete-user {
+    width: 35%;
+  }
+  /* Buttons all admin */
+
+  .container-btn-admin {
+    width: 50% !important;
+  }
+  #container-btn-delete {
+    width: 280px;
+  }
+  /* Footer */
+
+  .logo-and-ul {
+    margin: 0 auto;
+  }
+  .logo-and-ul ul {
+    margin-right: 0;
+  }
+}
